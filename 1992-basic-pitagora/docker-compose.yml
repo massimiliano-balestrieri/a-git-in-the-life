@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+
+  pitagore:
+    image: ngeor/basic
+    volumes: 
+        - /Users/max/var/QB45/:/basic/bin:ro
+        - ./src/:/basic/src
+    entrypoint: 
+        - /basic/bin/QB.exe PIT.BAS
