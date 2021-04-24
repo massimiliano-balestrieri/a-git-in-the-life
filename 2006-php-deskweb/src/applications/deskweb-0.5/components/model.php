@@ -1,41 +1,6 @@
 <?php
 
 
-/**
- * Project:     deskweb - the desktop manager for web <br />
- * 
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- *
- * You may contact the authors of Deskweb by emial at: <br />
- * io@maxb.net <br />
- *
- * Or, write to: <br />
- * Massimiliano Balestrieri <br />
- * Via Casalis 9 <br />
- * 10143 Torino <br />
- * Italy <br />
- *
- * The latest version of deskweb can be obtained from: <br />
- * http://www.deskweb.org/ <br />
- *
- * @link http://www.deskweb.org/
- * @author Massimiliano Balestrieri <io@maxb.net>
- * @version 0.1
- * @copyright 2005-2006 Massimiliano Balestrieri.
- * @package Core
- */
 
 /**
  * Classe Modello Deskweb
@@ -236,7 +201,7 @@ class ModelDeskWeb {
 
 		$user = $session->getCurrentUser();
 		$group = $session->getCurrentGroup();
-		// 2 livelli di profondità
+		// 2 livelli di profonditï¿½
 		// padri
 		$sql = "select id_node,node,icon,type,fk_parent,have_child,fk_menu  from ".PREFIX_DB."node where fk_parent in(".$idmenu_app.",".$idmenu_places.",".$idmenu_sys.") and ".$this->_getSqlRealm();
 		$padri = MySqlDao :: getDati($sql);
@@ -324,7 +289,7 @@ class ModelDeskWeb {
 	}
 	/*
 	 * verifica i permessi delle sezioni e restituisce le sezioni che l'utente 
-	 * è abilitato a vedere
+	 * ï¿½ abilitato a vedere
 	 * 
 	 * todo:
 	 * nelle richieste ajax non ricordo se questo metodo venga invocato
@@ -351,10 +316,10 @@ class ModelDeskWeb {
 			$dati = null;
 	}
 	/*
-	 * verifica se l'utente è root
+	 * verifica se l'utente ï¿½ root
 	 * 
 	 * todo:
-	 * verificare quale sia l'id da assegnare a root (penso che alla fine sarà 1)
+	 * verificare quale sia l'id da assegnare a root (penso che alla fine sarï¿½ 1)
 	 */
 	function _isRoot() {
 		global $session;
@@ -393,7 +358,7 @@ class ModelDeskWeb {
 	 * verifica che una sezione sia leggibile
 	 */
 	function _isReadable($dati, $livello) {
-		//se è una directory
+		//se ï¿½ una directory
 		if ($dati['type'] == 'dir') {
 			if ($dati['permissions'][6] == 'r' && $livello == "sons") {
 				return true;
