@@ -4,16 +4,6 @@
  * File:        session.php <br />
  * Description: Il file istanzia la classe session di deskweb <br /> 
  * 
- *
- * You may contact the authors of Deskweb by emial at: <br />
- * io@maxb.net <br />
- *
- * Or, write to: <br />
- * Massimiliano Balestrieri <br />
- * Via Casalis 9 <br />
- * 10143 Torino <br />
- * Italy <br />
- *
  * The latest version of deskweb can be obtained from: <br />
  * http://www.deskweb.org/ <br />
  *

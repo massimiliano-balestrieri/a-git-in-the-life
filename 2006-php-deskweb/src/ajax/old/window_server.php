@@ -5,16 +5,6 @@
  * Description: Il file si connette al db<br /> 
  * istanzia sniffer, sessione, request e modello<br /> 
  * istanzia l'oggetto ContentDeskWeb e lo manda ad output<br /> 
- *
- * You may contact the authors of Deskweb by emial at: <br />
- * io@maxb.net <br />
- *
- * Or, write to: <br />
- * Massimiliano Balestrieri <br />
- * Via Casalis 9 <br />
- * 10143 Torino <br />
- * Italy <br />
- *
  * The latest version of deskweb can be obtained from: <br />
  * http://www.deskweb.org/ <br />
  *
