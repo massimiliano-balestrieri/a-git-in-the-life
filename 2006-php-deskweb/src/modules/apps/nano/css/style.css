@@ -1,0 +1,8 @@
+.nano_barra_titolo{background-color:black;width:100%;text-align:left;}
+.nano_barra_righe{width:100%;}
+.contenuto_nano{color:black;text-align:justify;width:96%;min-height:200px;height:90%;overflow:auto;padding:5px;}
+.nano_panel{height:80%;overflow:auto;clear:both;padding-top:20px;background-color:white;width:100%;text-align:center;margin:auto;}
+.nano_form{overflow:auto;height:95%;}
+.nano_form textarea{border:5px dashed white;width:90%;height:80%;overflow:auto;background-color:black;color:white;padding:5px;}
+.nano_form p{display:block;height:95%;}
+.nano_form pre{border:5px dashed white;width:92%;height:83%;overflow:auto;background-color:black;color:white;padding:5px;}

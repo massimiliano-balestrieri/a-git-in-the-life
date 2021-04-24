@@ -1,0 +1,102 @@
+html, body{height:100%;width:100%;margin:0px;font-family:sans,verdana,arial;font-size:10px;}
+img{border:0px;}
+th, td, caption{font-size:9px;}
+/*CONTAINER PRINCIPALE*/
+#desktop{height:100%;overflow:auto;width:100%;background-color:green;z-index:-1;}
+/*LOGGER APPLICAZIONE*/
+#logger{position:absolute;bottom:5%;right:3%;font-size:9px;color:white;}
+
+/*GNOME MENU ALTO*/
+#panel_menu{width:100%;min-height:25px;background-color:#EFEFEF;border-bottom:1px solid #8d8d8d}
+#avvio_veloce{position:absolute;right:150px;display:inline;}
+#barra_ora{position:absolute;right:130px;margin-top:0px;}
+#loaded{display:none;position:absolute;right:7px;margin-top:5px;}
+#loading{position:absolute;right:7px;margin-top:5px;}
+#ora{position:absolute;right:25px;margin-top:5px;font-size:10px;}
+
+/*GNOME MENU SCOMPARSA*/
+#gnome_menu1{display:none;position:absolute;z-index:100;}
+#gnome_menu2{display:none;position:absolute;left:110px;z-index:100;}
+#gnome_menu3{display:none;position:absolute;left:165px;z-index:100;}
+
+/*GNOME PANNELLO BASSO*/
+#panel_nav{width:100%;min-height:26px;position:absolute;bottom:0px!important;bottom:-1px;background-color:#EAE8E3;border-top:1px solid white;}
+#mostra_desktop{float:left;}
+#sel_desktop{position:absolute;right:8px;bottom:1px;border:1px solid #A7A7A7}
+#tasti_panel_nav{position:absolute;width:87%;left:40px;background-color:#EAE8E3;height:24px;padding:1px;}
+.bordo_tasto_panel_nav{float:left;background-color:#EAE8E3;border:1px solid #999999;margin-left:1px;}
+.tasto_panel_nav{background-color:#EAE8E3;border-left:1px solid white;border-top:1px solid white;border-bottom:1px solid #EAE8E3;border-right:1px solid #EAE8E3;height:20px;width:100%;}
+.tasto_panel_nav_active{background-color:#9999CC;border-left:1px solid white;border-top:1px solid white;border-bottom:1px solid #EAE8E3;border-right:1px solid #EAE8E3;height:20px;width:100%;}
+
+/*ICONE DESKTOP*/
+.icone{display:block;margin:auto;}
+.text_icone{color:white;margin-bottom:10px;display:block;}
+#icone_destra{position:absolute;right:20px;top:50px;text-align:center;}
+#icone_sinistra{position:absolute;left:20px;top:50px;text-align:center;}
+
+/*WEBLET NEWS*/
+#news_project{height:80%;font-size:9px;color:black;width:250px;position:absolute;left:60%;top:10%;}
+#contenuto_news_project{color:black;text-align:justify;width:96%;font-size:9px;}
+
+/*WEBLET NOTES*/
+#notes{height:200px;width:200px;font-size:9px;color:black;position:absolute;left:60%;top:45%;background:url(/repository/images/gui/postit.png)top left no-repeat;}
+#contenuto_notes{padding-left:25px;padding-top:30px;}
+
+/*WINDOW*/
+.bordo_window_0{background-color:#EAE8E3;border:1px solid black;border-right:1px solid #EAE8E3;}
+.bordo_window_1{background-color:#EAE8E3;border:1px solid #9999CC;}
+.window{border-left:1px solid white;border-top:1px solid white;border-bottom:1px solid #EAE8E3;border-right:1px solid #EAE8E3;height:100%;background-color:#FFFFFF;}
+.window_barra_titolo_0{height:21px;width:100%;z-index:2;cursor:move;text-align:left;}
+.window_barra_titolo_1{height:21px;background-color:#9999CC;width:100%;z-index:2;cursor:move;text-align:left;}
+.window_barra_stato{overflow:auto;width:100%;background-color:#EAE8E3;position:absolute;bottom:0px;}
+.window_barra_stato_stat{float:left;border:1px solid #D1CFC8;height:19px;padding-left:5px;padding-top:5px;text-align:left;}
+.window_barra_stato_nav{border:1px solid #D1CFC8;height:19px;text-align:center;padding-top:5px;float:left;padding-left:3px;padding-right:3px;}
+.window_barra_stato_resize{float:left;cursor:nw-resize;}
+.window_tasto_ridimensiona{position:absolute;right:5px;}
+.titolo_sezione{font-size:10px;margin-left:3px;}
+.iconizza_win{position:absolute;right:40px;}
+.ingrandisci_win{position:absolute;right:21px;width:17px;height:17px;}
+.riduci_win{position:absolute;right:21px;visibility:hidden;}
+.chiudi_win{position:absolute;right:2px;}
+
+/*GENERIC PANEL*/
+.generic_panel{height:80%!important;height:320px;overflow:auto;clear:both;padding-top:20px;background-color:white;width:98%;text-align:center;margin:auto;}
+/*TOOLBAR*/
+.toolbar_panel{clear:both;height:20px;width:100%;background:#EFEBE7;padding-top:2px;}
+.toolbar_button{display:block;float:left;width:auto;height:auto;background-color:#F4F3F0;height:16px;width:16px;border:0px;font-size:0px;margin-left:4px;}
+.separator{display:block;float:left;border-right:1px solid #F4F3F0;border-left:1px solid #F4F3F0;background-color:#D8D3C8;color:#D8D3C8;width:2px;height:20px;}
+
+/* APP DEBUG */
+.debug_panel{padding-top:12px;;background-color:black;clear:both;height:90%;width:100%;overflow:auto;}
+#dmesg{font-size:10px;color:white;overflow:auto;height:100%!important;height:320px;}
+
+/* NAUTILUS */
+.nautilus_form{margin:0px;padding:0px;height:96%;}
+.nautilus_panel{height:78%!important;height:320px;overflow:auto;clear:both;padding-top:20px;background-color:white;width:100%;text-align:center;margin:auto;}
+.icona_nautilus_panel{float:left;padding:25px;width:120px;text-align:center;overflow:hidden;}
+.icona_nautilus{display:block;margin:auto;}
+.text_icona_nautilus{font-size:10px;}
+
+.icona_nautilus_detailed{vertical-align:middle;display:block;float:left;}
+.text_icona_nautilus_detailed{text-decoration:none;color:black;margin-left:5px;display:block;float:left;width:60%;overflow:hidden;}
+
+.tblnautilus table{width:100%;border:1px solid #EEEEEE;}
+.tblnautilus th{width:auto;border:1px solid #DDDDDD;}
+.int_nautilus_col{background-color:#EEEEEE;width:100%;display:inline;float:none;border:1px solid #DDDDDD;}
+.nautilus_row_on{background-color:#DDDDDD;font-size:10px;}
+.nautilus_row_off{background-color:#EEEEEE;font-size:10px;}
+
+
+.check_icon{display:block;float:left;}
+
+
+/* DIALOG */
+.bordo_dialog{position:absolute;background-color:#EAE8E3;border:1px solid #9999CC;width:250px;margin:15%;}
+.dialog{background-color:#EAE8E3;border-bottom:1px solid #EAE8E3;border-right:1px solid #EAE8E3;border-top:1px solid white;border-left:1px solid white;overflow:hidden;width:97%;height:100%;padding:2px;}
+.dialog_barra_titolo{height:15px;background-color:yellow;width:100%;z-index:2;text-align:left;font-size:10px;margin-left:3px;}
+
+.dialog label, .generic_form label{display:block;float:left;width:45%;font-size:9px;}
+.dialog input, .generic_form input{display:block;float:left;width:45%;background-color:white;font-size:10px;margin-bottom:2px;}
+.dialog input.button {width:30%;}
+.dialog p, .generic_form p{clear:both;padding:5px;}
+.dialog form, .generic_form form{margin:0px;padding:0px;}
