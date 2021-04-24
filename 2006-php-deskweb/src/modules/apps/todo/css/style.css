@@ -1,0 +1,24 @@
+form{margin:1px;padding:0px;}
+textarea{border:0px;}
+label{display:block;float:left;width:45%;font-size:10px;}
+input{display:block;float:left;width:45%;background-color:white;font-size:10px;}
+select,option{background-color:white;font-size:11px;}
+table,tr,td,th{width:95%;padding:0px;margin:0px;text-align:left;}
+th{font-size:10px;font-weight:bold;color:#6B7A85;width:40%;}
+td{font-size:10px;letter-spacing:1px;}
+
+
+.panel{text-align:left;}
+.arrow{width:9px;height:9px;text-align:right;}
+.titolo_panel{border:1px solid lightgray;padding:2px;text-align:left;}
+.tblwidget{width:100%;}
+.tblwidget th{width:auto;border:1px solid lightgray;padding:2px;border-spacing:10px;}
+.tblwidget th a{color:#6B7A85;}
+.tblwidget td{width:auto;border:1px solid lightgray;padding:5px;border-spacing:10px; }
+.filter input{width:auto;display:inline;float:none;}
+.filtroaz input{width:auto;display:inline;float:none;margin:0px;padding:1px;}
+.deskwebform input{width:auto;display:inline;float:none;margin:0px;padding:1px;border-style:solid;background-color:#6B7A85;color:white;}
+.deskwebform label{width:200px;}
+.paging li{display:block;float:left;padding:5px;border-right:1px solid #6B7A85;}
+
+.small{width:auto;}

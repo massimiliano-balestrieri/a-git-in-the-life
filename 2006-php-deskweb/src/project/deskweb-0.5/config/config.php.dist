@@ -1,0 +1,22 @@
+<?php
+
+//PROGETTO
+define("PREFIX_TITLE_PROJ", 'Deskweb.org');
+define("AUTHOR_PROJ", 'Massimiliano Balestrieri');
+define("DESC_PROJ", 'L\'idea di fondo � semplice: deskweb ripropone su applicazioni web l\'usabilit? e l\'iconografia di un normale desktop con sistema a finestre.  - Deskweb  underlying concept is simple: it applies to web applications the characteristics of   iconography and usability proper to a common windows system desktop.');
+define("KEYS_PROJ", '');
+
+//APPLICAZIONE
+define("DEFAULT_APPLICATION", 'deskweb');
+
+//DATABASE
+define("SERVER_DB",'CONFIGME');
+define("DB_PW",'CONFIGME');
+define("DB_USER",'CONFIGME');
+define("DB_DB",'CONFIGME');
+		
+
+//statistiche
+$widget_stat =<<< EOFORMPAGE
+EOFORMPAGE;
+?>

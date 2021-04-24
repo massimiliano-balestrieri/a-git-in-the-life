@@ -1,0 +1,38 @@
+version: "3.9"
+services: 
+    deskweb:
+        image: nimmis/alpine-apache-php5
+        volumes: 
+            - ./src/:/web/html:ro
+        ports:
+            - "80:80"
+        networks:
+            - web
+    db:
+        platform: linux/x86_64
+        image: mysql:5.7
+        # volumes:
+        #     - ~/var/lib/mysql:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: deskweb
+            MYSQL_DATABASE: deskweb
+            MYSQL_USER: deskweb
+            MYSQL_PASSWORD: deskweb
+        networks:
+            - web
+    phpmyadmin:
+        depends_on:
+            - db
+        image: phpmyadmin/phpmyadmin
+        restart: always
+        ports:
+            - '8082:80'
+        environment:
+            PMA_HOST: db
+            MYSQL_ROOT_PASSWORD: deskweb 
+        networks:
+            - web
+networks: 
+    web:
+    

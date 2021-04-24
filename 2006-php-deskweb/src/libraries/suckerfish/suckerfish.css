@@ -1,0 +1,167 @@
+.menu_container{width:100%;background:#EFEBE7;text-align:left;margin:0 auto;font-size:10px;}
+
+.nav_sucker, .nav_sucker ul 
+{
+width:100%;
+float: left;
+list-style: none;
+padding: 0;
+margin: 0 0 0 0;
+}
+
+.nav_sucker a, .nav_sucker span 
+{
+display: block;
+width: 11em;/*IE*/
+w\idth: 6em;/*MZ*/
+color: black;
+text-decoration: none;
+padding: 5px;
+}
+.nav_sucker span
+{
+color:#999;
+}
+
+.nav_sucker a.daddy 
+{
+background: url(/libraries/suckerfish/rightarrow2.gif) center right no-repeat;
+}
+
+.nav_sucker li 
+{
+float: left;
+border-top:1px solid #D8D3C8;
+border-bottom:1px solid #F4F3F0;
+background-color:#EFEBE7;
+}
+
+.nav_sucker li ul 
+{
+position: absolute;
+left: -999em;
+height: auto;
+width: 14.4em;
+w\idth: 13.9em;
+border-width: 0.25em;
+margin: 0;
+}
+
+.nav_sucker li li 
+{
+padding-right: 1em;
+width: 13em
+}
+
+.nav_sucker li ul a 
+{
+width: 15em;
+w\idth: 11em;
+}
+
+.nav_sucker li ul ul 
+{
+margin: -1.75em 0 0 13em;
+}
+
+.nav_sucker li:hover ul ul, .nav_sucker li:hover ul ul ul, .nav_sucker li.sfhover ul ul, .nav_sucker li.sfhover ul ul ul {left: -999em;}
+
+.nav_sucker li:hover ul, .nav_sucker li li:hover ul, .nav_sucker li li li:hover ul, .nav_sucker li.sfhover ul, .nav_sucker li li.sfhover ul, .nav_sucker li li li.sfhover ul {left: auto;}
+
+.nav_sucker li:hover, .nav_sucker li.sfhover {background: #9999CC;}
+
+/* Horizontal menu */
+.nav_rigby, .nav_rigby ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px; /* Width of Menu Items */
+	background: #EFEFEF; /* IE6 Bug */
+	border:1px solid #8d8d8d;
+	border-top:0px;
+	}
+
+ul.nav_rigby li {
+	position: relative;
+	}
+
+.nav_rigby li ul {
+	position: absolute;
+	left: 146px; /* Set 1px less than menu width */
+	top: 0;
+	display: none;
+	}
+ul.nav_rigby li a.daddy 
+{
+	background: url(/libraries/suckerfish/rightarrow2.gif) center right no-repeat;
+}
+/* Styles for Menu Items */
+ul.nav_rigby li a, ul.nav_rigby li span{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+	}
+ul.nav_rigby li img{
+	display:block;
+	float:left;
+	padding-right:3px;
+}
+
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+* html ul li span { height: 1%; }
+/* End */
+
+ul.nav_rigby li a:hover { color: white; background:#567898; } /* Hover Styles */
+
+.nav_rigby li ul li a, .nav_rigby li ul li span{ padding: 8px; } /* Sub Menu Styles */
+
+.nav_rigby li:hover ul,.nav_rigby li.sfhover ul { display: block; } /* The magic */
+
+
+/*Menu Goetter*/
+
+dl, dt, dd, ul, li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+.amenu_goetter {
+position: absolute;
+top: 0;
+left: 0;
+}
+.menu_goetter {
+width: 15em;
+}
+.menu_goetter dt {
+cursor: pointer;
+margin: 2px 0;;
+height: 20px;
+line-height: 20px;
+text-align: center;
+font-weight: bold;
+border: 1px solid gray;
+background: #ccc;
+}
+.menu_goetter dd {
+border: 1px solid gray;
+}
+.menu_goetter li {
+text-align: center;
+background: #fff;
+}
+.menu_goetter li a, .menu_goetter dt a {
+color: #000;
+text-decoration: none;
+display: block;
+border: 0 none;
+height: 100%;
+}
+
+.menu_goetter li a:hover, .menu_goetter dt a:hover {
+background: #eee;
+}

@@ -1,0 +1,34 @@
+0.5.1
+PACKAGE @libraries
+- import the class replacePngTags (KOIVI PNG Alpha IMG Tag Replacer for PHP)
+- suckerfish.css corretti bordi e distanze
+PACKAGE @core
+- action.php fix bug on copy action
+PACKAGE @deskweb
+- image.php fix png trasparency
+- button.php fix png trasparency
+- button.php fix button/submit cross-browser
+- ddmenu.php immagini del menu istanziate mediante classe image.php e non inline nel codice
+
+PACKAGE @DesktopManager
+- panelmenu.php sostituite immagini tasti menu dwgnome
+- panelmenu.php aggiunte immagini loading e loaded
+- panelnav.php sostituite immagini seleziona desktop
+- panelnav.php aggiunta immagine che indica il desktop attivo
+
+PACKAGE @extra
+- deskweb.css corretti colori di sfondo
+- deskweb.css corretti aggiunto elementi loading e loaded
+- deskweb.css hack panel_nav bottom position in ie
+- deskweb.css hack toolbar position in ie
+- deskweb.css hack button/submit toolbar in ie
+- deskweb.css hack height panel in ie
+- functions.js aggiunte le funzioni whenLoading e whenLoaded
+- functions.js corrette destinazioni ajax request 
+- functions.js corretti alcuni controlli su color_active
+- functions.js corretto baco (ajax suckerfish ie) 
+PACKAGE @modules
+- dwskeleton_toolbar.php fix png
+- dwnautilus_toolbar.php fix png
+- dwnano_toolbar.php fix png
+- dweditor_toolbar.php fix png

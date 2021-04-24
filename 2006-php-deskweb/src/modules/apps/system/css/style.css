@@ -1,0 +1,51 @@
+form{margin:1px;padding:0px;}
+textarea{border:0px;}
+label{display:block;float:left;width:45%;font-size:10px;}
+input{display:block;float:left;width:45%;background-color:white;font-size:10px;}
+select,option{background-color:white;font-size:11px;}
+table,tr,td,th{width:95%;padding:0px;margin:0px;text-align:left;}
+th{font-size:10px;font-weight:bold;color:#6B7A85;width:40%;}
+td{font-size:10px;letter-spacing:1px;}
+p{margin:1px;}
+
+.panel{text-align:left;}
+.arrow{width:9px;height:9px;text-align:right;}
+.titolo_panel{border:1px solid lightgray;padding:4px;text-align:left;background-color:#EEEEEE;}
+.titolo_input{display:inline;float:none;border:0px;padding:2px;font-size:12px;background-color:#DDDDDD;width:100%;text-align:right;}
+
+.tblwidget{width:100%;}
+.tblwidget th{width:auto;border:1px solid lightgray;padding:2px;border-spacing:10px;background-color:#EEEEEE;}
+.tblwidget th a{color:#6B7A85;}
+.tblwidget td{width:auto;border:1px solid lightgray;padding:2px;border-spacing:10px; }
+.filter ,.filtroaz{background-color:#DDDDDD;}
+.filter input{width:auto;display:inline;float:none;}
+.filtroaz input{background-color:#EEEEEE;width:auto;display:inline;float:none;margin:0px;padding:1px;}
+
+.page_form{margin:auto;margin-bottom:10px;margin-top:10px;width:100%;background-color:#DDDDDD;text-align:center;}
+
+.deskwebform{border:1px solid lightgray;}
+.deskwebform input{width:20%;display:inline;float:none;margin:0px;padding:1px;border-style:solid;background-color:#6B7A85;color:white;}
+
+.deskwebform select{width:20%;border:0px;margin:0px;padding:1px;background-color:#6B7A85;color:white;}
+.deskwebform option{margin:0px;background-color:#6B7A85;color:white;}
+.deskwebform input.formpage{border:1px solid white;padding:5px;background-color:#DDDDDD;color:black;}
+
+.deskwebform input.disformpage{border:0px;margin-left:1px;margin-right:1px;padding:5px;border-spacing:10px;background-color:white;color:black;}
+
+.deskwebform textarea{display:inline;float:none;margin:0px;padding:1px;border-style:solid;background-color:#6B7A85;color:white;width:99%;height:200px;}
+.deskwebform label{width:40%;padding-left:60px;}
+.paging li{display:block;float:left;padding:5px;border-right:1px solid #6B7A85;}
+
+.toolbar_form{border-top:1px solid #DDDDDD;border-bottom:1px solid #DDDDDD;margin-bottom:10px;margin-top:10px;width:100%;}
+.toolbar_form input{width:auto;display:inline;float:none;margin:0px;padding:1px;background-color:white;}
+.toolbar_sp{border-right:1px solid #DDDDDD;}
+.small{background-color:#EEEEEE;width:100%;display:inline;float:none;border:1px solid #DDDDDD;}
+.paging{background-color:#EEEEEE;width:auto;display:inline;float:none;border:1px solid #DDDDDD;}
+.radio, .tasto{width:auto;}
+.row_on{background-color:#DDDDDD;}
+.row_off{background-color:#EEEEEE;}
+
+.field_image{float:left;width:auto;width:25%;}
+.field_image th{width:auto;}
+.field_image input{width:70%}
+.form_image_field{clear:both;overflow:auto;}
