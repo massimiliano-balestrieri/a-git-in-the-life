@@ -3,7 +3,7 @@ services:
     deskweb:
         image: nimmis/alpine-apache-php5
         volumes: 
-            - ./src/:/web/html
+            - ./src/:/web/html:ro
         ports:
             - "8081:80"
         networks:
@@ -11,8 +11,8 @@ services:
     db:
         platform: linux/x86_64
         image: mysql:5.7
-        volumes:
-            - ./var/lib/mysql:/var/lib/mysql
+        # volumes:
+        #     - ./var/lib/mysql:/var/lib/mysql
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: deskweb
