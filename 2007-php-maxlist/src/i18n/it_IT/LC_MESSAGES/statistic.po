@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 17:42+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/statistic\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:2
+msgid "Statistics"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:5
+msgid "subject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:8
+msgid "from"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:11
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:93
+msgid "total"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:14
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:90
+msgid "text"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:17
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:91
+msgid "html"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:20
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:92
+msgid "both"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:23
+msgid "viewed"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:26
+msgid "unique"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/tpl/smarty.c:29
+msgid "bounced"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:51
+msgid "statistics"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:80
+msgid "From:"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:81
+msgid "Subject:"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:82
+msgid "Entered:"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:83
+msgid "Embargo:"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:84
+msgid "Status"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:85
+msgid "Clicks"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:86
+msgid "Sent"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:87
+msgid "Time to send"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:88
+msgid "Viewed"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:89
+msgid "Unique Views"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:94
+msgid "Bounced"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:106
+msgid "View"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:107
+msgid "delete"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:108
+msgid "Requeue"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:109
+msgid "Edit"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:110
+msgid "Delete all draft messages without subject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:111
+msgid "yes"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:112
+msgid "no"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/statistic/statistic_view.php:135
+msgid "Messages"
+msgstr ""
+

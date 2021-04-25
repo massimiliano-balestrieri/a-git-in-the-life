@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 17:44+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/admin\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:2
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:14
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_view.php:53
+msgid "Administrators"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:5
+msgid "delete_records"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:8
+msgid "no"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:11
+msgid "yes"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:17
+msgid "delete"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:20
+msgid "add"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:23
+msgid "import"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:26
+msgid "Edit_Administrator"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:29
+msgid "loginname"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:32
+msgid "change_password"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:35
+msgid "password"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:38
+msgid "Password_changed_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:41
+msgid "superuser"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:44
+msgid "admin_disabled"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:47
+msgid "Time_Created"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:50
+msgid "Time_modified"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:53
+msgid "modifiedby"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:56
+msgid "field_required"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:59
+msgid "groups"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:62
+msgid "No_usergroups"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:65
+msgid "No_Groups"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:68
+msgid "is_disabled"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:71
+msgid "selectgroups"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:74
+msgid "Save"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:77
+msgid "back"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:80
+msgid "reset"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:83
+msgid "save"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/tpl/smarty.c:86
+msgid "save_and"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:102
+msgid "admin_password_required"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:106
+msgid "admin_username_exist"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:111
+msgid "admin_created"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:114
+msgid "admin_problem"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:127
+msgid "admin_problem2"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:131
+msgid "admin_updated"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:134
+msgid "error_msg2"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:149
+msgid "admin_deleted"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_controller.php:152
+msgid "admin_del_error_level"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_view.php:108
+msgid "Admin Details"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/admin/admin_view.php:131
+msgid "Save Changes"
+msgstr ""
+

@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 19:55+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/list\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:2
+msgid "Lists"
+msgstr "Categorie"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:5
+msgid "sure_delete"
+msgstr "Sei sicuro di voler cancellare la categoria?"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:8
+msgid "no"
+msgstr "no"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:11
+msgid "yes"
+msgstr "si"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:14
+msgid "No"
+msgstr "No"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:17
+msgid "Order"
+msgstr "Ordine"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:20
+msgid "Name"
+msgstr "Nome"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:23
+msgid "Functions"
+msgstr "Funzioni"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:26
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:59
+msgid "Owner"
+msgstr "Proprietario"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:29
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:62
+msgid "Active"
+msgstr "Attivo"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:32
+msgid "decrease position"
+msgstr "Decrementa"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:35
+msgid "increase position"
+msgstr "Incrementa"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:38
+msgid "edit"
+msgstr "modifica"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:41
+msgid "delete"
+msgstr "elimina"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:44
+msgid "members"
+msgstr "utenti"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:47
+msgid "add"
+msgstr "aggiungi"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:50
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:139
+msgid "update"
+msgstr "aggiorna"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:53
+msgid "list"
+msgstr "Categoria"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:56
+msgid "list_name"
+msgstr "Nome della categoria"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:65
+msgid "List description"
+msgstr "Descrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:68
+msgid "Users count"
+msgstr "Numero utenti"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:71
+msgid "Fields required"
+msgstr "I campi contrassegnati con l'asterisco (*) sono obbligatori"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:74
+msgid "Members list"
+msgstr "utenti di questa categoria"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:77
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:80
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:83
+msgid "reset"
+msgstr "reset"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:86
+msgid "back"
+msgstr "indietro"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:89
+msgid "save"
+msgstr "salva"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/tpl/smarty.c:92
+msgid "save_and"
+msgstr "salva e continua"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:90
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:98
+msgid "list_name_required"
+msgstr "Devi inserire il nome della categoria."
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:91
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:99
+msgid "list_description_required"
+msgstr "Devi inserire la descrizione."
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:93
+msgid "list_created"
+msgstr "La categoria è stata creata."
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:102
+msgid "list_updated"
+msgstr "La categoria è stata modificata."
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:109
+msgid "list_deleted"
+msgstr "La categoria è stata eliminata."
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:122
+msgid "list_status_updated"
+msgstr "Lo stato delle categorie è stato aggiornato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/list/list_controller.php:134
+msgid "list_ordered"
+msgstr "L'ordine delle categorie è stato salvato."
+

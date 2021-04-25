@@ -1,0 +1,3 @@
+/* ./configure.tpl */
+gettext("save");
+

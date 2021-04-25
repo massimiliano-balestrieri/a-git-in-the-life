@@ -1,0 +1,74 @@
+{include file="$PATH_TPL/inc/head_view.tpl"}
+{include file="$PATH_TPL/inc/debug.tpl"}
+<!-- processqueue.tpl -->
+{if isset($target) && $target == "esito"}
+{$esito}
+{/if}
+{if !isset($target) || $target == "processqueue"}
+<div id="container_processqueue">
+	<h4 id="processqueue">Invia messaggi</h4>
+	
+	<div class="ml_panel ml_panel_1" id="ml_processqueue">
+		{if sizeof($tpl_list_messages)==0}
+		<div class="ml_msg">
+		<p>Non sono presenti messaggi in coda d'invio</p>
+		</div>
+		{else}
+		{if isset($tpl_POST.confirm)}
+		<p>
+		{foreach from=$content item=cont}
+			{$cont}
+		{/foreach}
+		Script stage: 6<br/>
+		Terminato, nulla da eseguire<br/>
+		Finito, tutto eseguito<br/>
+		</p>
+		{else}
+		<form id="form_confirm" method="post" action="#">
+		<div class="ml_msg">
+		<p>Sei sicuro di voler inviare i messaggi inseriti?</p>
+		</div>
+		<div class="ml_container_buttons">
+			<div class="ml_buttons_sx">			
+				<input type="submit" name="confirm" value="{$tpl_lbl_action.no}" class="ml_button" />
+			</div>
+			<div class="ml_buttons_dx">
+				<input type="submit" name="confirm" value="{$tpl_lbl_action.yes}" class="ml_button" />
+			</div>
+		</div>
+		</form>
+		{/if}
+		{/if}
+	</div><!--/contenuti-->
+</div><!--/container-->
+{/if}
+{if sizeof($tpl_list_messages)>0}
+{if !isset($target) || $target == "messages"}
+{if !isset($tpl_POST.confirm)}
+<div id="container_messages">
+	<h4 id="messages">Messaggi presenti in coda d'invio</h4> 
+	
+	<div class="ml_panel ml_panel_1" id="ml_messages">
+	{include file="$PATH_TPL/inc/paging.tpl"}
+	<table class="ml_col" summary="informazioni messaggio">
+		<tr>
+			<th>oggetto</th>
+			<th>categorie</th>
+			<th>stato</th>
+			<th>data e ora di invio</th>			
+		</tr>
+	{foreach item=message from=$tpl_list_messages}
+		<tr>
+			<td><strong class="ml_oggetto">{$message.subject}</strong></td>
+			<td>{$message.lists}</td>
+			<td>{$message.status}</td>
+			<td>{$message.embargo}</td>
+		</tr>	
+	{/foreach}
+	</table>
+	{include file="$PATH_TPL/inc/paging.tpl"}
+	</div><!--/contenuti-->
+</div><!--/container-->
+{/if}	
+{/if}	
+{/if}	

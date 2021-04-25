@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 17:14+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/template\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:2
+msgid "templates"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:5
+msgid "sure_delete"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:8
+msgid "no"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:11
+msgid "yes"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:14
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:35
+msgid "title"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:17
+msgid "default"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:20
+msgid "new"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:23
+msgid "edit"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:26
+msgid "delete"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:29
+msgid "create"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:32
+msgid "Edit_Template"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:38
+msgid "content"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:41
+msgid "back"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:44
+msgid "save"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/tpl/smarty.c:47
+msgid "save_and"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/template_controller.php:48
+msgid "work_in_progress"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/template_controller.php:76
+msgid "No template have been defined"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/template_controller.php:102
+msgid "Template saved"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/template_controller.php:109
+msgid "template_deleted"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/template/template_controller.php:117
+msgid "template_set_default"
+msgstr ""
+

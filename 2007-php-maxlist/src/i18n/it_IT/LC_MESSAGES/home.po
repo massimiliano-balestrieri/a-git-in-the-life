@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 15:27+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/home\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:2
+msgid "System_Functions"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:5
+msgid "eventlog"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:8
+msgid "eventlog_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:11
+msgid "profile"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:14
+msgid "admin_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:17
+msgid "Configuration_functions"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:20
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:23
+msgid "configure"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:26
+msgid "List_and_user_functions"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:29
+msgid "list"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:32
+msgid "list_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:35
+msgid "users"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:38
+msgid "users_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:41
+msgid "attributes"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:44
+msgid "attributes_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:47
+msgid "import"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:50
+msgid "import_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:53
+msgid "export"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:56
+msgid "export_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:59
+msgid "Administrator_functions"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:62
+msgid "admins"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:65
+msgid "admins_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:68
+msgid "Message_functions"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:71
+msgid "send"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:74
+msgid "send_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:77
+msgid "templates"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:80
+msgid "templates_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:83
+msgid "messages"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:86
+msgid "messages_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:89
+msgid "process_queue"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:92
+msgid "processqueue_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:95
+msgid "process_bounces"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:98
+msgid "processbounces_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:101
+msgid "bounces"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:104
+msgid "view_bounces"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:107
+msgid "statistics"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/tpl/smarty.c:110
+msgid "statistics_desc"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/home/home_view.php:50
+msgid "admin"
+msgstr ""
+

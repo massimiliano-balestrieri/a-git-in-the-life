@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-11 18:46+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/message\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:2
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:2
+msgid "addattachments"
+msgstr "Allegati"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:5
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:5
+msgid "maxtotaldata"
+msgstr "Dimensione massima totale per tutti i file inviati al server"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:8
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:8
+msgid "newattachment"
+msgstr "Nuovo allegato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:11
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:11
+msgid "attachmentdescription"
+msgstr "Descrizione dell'allegato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:14
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:14
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:224
+msgid "uploadandsave"
+msgstr "carica"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:17
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:17
+msgid "filename"
+msgstr "nome file"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:20
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:20
+msgid "desc"
+msgstr "desc"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:23
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:23
+msgid "size"
+msgstr "dimensione (kb)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:26
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:26
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:221
+msgid "deleteattachments"
+msgstr "cancella allegati"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:29
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:134
+msgid "Test_message"
+msgstr "Invia un messaggio di test"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:32
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:137
+msgid "toemailaddresses"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:35
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:140
+msgid "sendtestexplain"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:38
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:143
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:215
+msgid "sendtestmessage"
+msgstr "Invia un messaggio di test"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:41
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:29
+msgid "Save_message"
+msgstr "Salva il messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:44
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:32
+msgid "saveasdraft"
+msgstr "Salva in bozza"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:47
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:35
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:212
+msgid "sendmessage"
+msgstr "inserisci in coda di invio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:50
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:128
+msgid "embargoeduntil"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:53
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:131
+msgid "repeatevery"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:56
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:62
+msgid "sendas"
+msgstr "Manda come"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:59
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:65
+msgid "html"
+msgstr "HTML"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:62
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:68
+msgid "text"
+msgstr "Testo"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:65
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:71
+msgid "pdf"
+msgstr "PDF"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:68
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:74
+msgid "textandhtml"
+msgstr "Testo e HTML"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:71
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:77
+msgid "textandpdf"
+msgstr "Testo e PDF"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:74
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:80
+msgid "usetemplate"
+msgstr "Usa un template"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:77
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:83
+msgid "selectone"
+msgstr "seleziona"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:80
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:185
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:38
+msgid "subject"
+msgstr "oggetto"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:83
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:41
+msgid "fromfield"
+msgstr "da"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:86
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:44
+msgid "fromline"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:89
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:212
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:47
+msgid "message"
+msgstr "Messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:92
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:50
+msgid "plaintextversion"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:95
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:53
+msgid "fields_required"
+msgstr "I campi contrassegnati con l'asterisco (*) sono obbligatori"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:98
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:113
+msgid "Misc"
+msgstr "Misc"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:101
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:116
+msgid "emailtoalert"
+msgstr "avvisami via email all'invio di questo messaggio'"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:104
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:110
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:119
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:125
+msgid "comma"
+msgstr "separa multipli con virgola \",\""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:107
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:122
+msgid "emailfinished"
+msgstr "avvisami via email al termine dell'invio di questo messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:113
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:188
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:86
+msgid "lists"
+msgstr "categorie"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:116
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:89
+msgid "selectlist"
+msgstr "Seleziona almeno una categoria"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:119
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:92
+msgid "alllists"
+msgstr "Tutte le categorie"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:122
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:134
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:95
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:107
+msgid "listactive"
+msgstr "La categoria  è attiva"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:125
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:137
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:98
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:110
+msgid "listnotactive"
+msgstr "La categoria non è attiva"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:128
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:101
+msgid "selectexcludelist"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:131
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:104
+msgid "excludelistexplain"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:140
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:56
+msgid "messagefooter"
+msgstr "Footer"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:143
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/form/smarty.c:59
+msgid "messagefooterexplanation"
+msgstr "Utilizza <strong>[UNSUBSCRIBE]</strong> per inserire la deiscrizione personale.Usa <strong>[PREFERENCES]</strong> per inserire una URL personale per ogni utente per modificare i propri dettagli"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:146
+msgid "Search"
+msgstr "Cerca"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:149
+msgid "subject_find"
+msgstr "Oggetto"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:152
+msgid "Status"
+msgstr "Stato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:155
+msgid "select_status"
+msgstr "Seleziona..."
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:158
+msgid "reset"
+msgstr "reset"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:161
+msgid "go"
+msgstr "vai"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:164
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_view.php:56
+msgid "Messages"
+msgstr "Messaggi"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:167
+msgid "sure_deleted_nosubject"
+msgstr "Sei sicuro di voler cancellare tutti i messaggi senza oggetto?"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:170
+msgid "sure_delete_msg"
+msgstr "Sei sicuro di voler cancellare il messaggio?"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:173
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:218
+msgid "no"
+msgstr "no"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:176
+msgid "yes"
+msgstr "si"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:179
+msgid "sure_requeue"
+msgstr "Sei sicuro di riaccodare il messaggio?"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:182
+msgid "info_message"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:191
+msgid "status"
+msgstr "stato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:194
+msgid "view"
+msgstr "visualizza"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:197
+msgid "delete"
+msgstr "elimina"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:200
+msgid "requeue"
+msgstr "riaccoda"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:203
+msgid "edit"
+msgstr "modifica"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:206
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:209
+msgid "resend"
+msgstr "Invia questo stesso messaggio ad una nuova categoria"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:215
+msgid "attach"
+msgstr "Allegato per questo messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:218
+msgid "noattach"
+msgstr "Nessun allegato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:221
+msgid "listsend"
+msgstr "Categorie cui è stato spedito questo messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/tpl/smarty.c:224
+msgid "nosend"
+msgstr "Nessuna ancora"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:110
+msgid "message_send_not_editable"
+msgstr "Messaggio è stato già inviato e non è modificabile"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:117
+msgid "message_created"
+msgstr "Messaggio creato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:127
+msgid "message_deleted"
+msgstr "Il messaggio è stato eliminato"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:146
+msgid "message_saved"
+msgstr "Il messaggio è stato salvato."
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:155
+msgid "message_queued"
+msgstr "Il messaggio è stato inserito in coda di invio. Per inviare andare sulla voce <i>invia</i> del menu."
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:193
+msgid "removedattachment"
+msgstr "Allegato rimosso"
+
+#: /var/www/maxlist/0.5/maxlist/modules/message/message_controller.php:201
+msgid "addingattachment"
+msgstr ""
+

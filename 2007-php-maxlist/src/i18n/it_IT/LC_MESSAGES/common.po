@@ -1,0 +1,471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 19:53+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/app\n"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:130
+msgid "Home"
+msgstr "Home"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:131
+msgid "About"
+msgstr "About"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:132
+msgid "Eventlog"
+msgstr "Log degli eventi"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:133
+msgid "Configure"
+msgstr "Configurazione"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:134
+msgid "Lists"
+msgstr "Categorie"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:135
+msgid "Users"
+msgstr "Utenti"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:136
+msgid "Admin"
+msgstr "Amministratore"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:137
+msgid "Messages"
+msgstr "Messaggi"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:138
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:139
+msgid "subscribe"
+msgstr "Iscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:152
+msgid "Attributes"
+msgstr "Attributi"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:153
+msgid "Export"
+msgstr "Esporta"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:154
+msgid "Import"
+msgstr "Importa"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:156
+msgid "Admin attributes"
+msgstr "Attributi amministratore"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:157
+msgid "Groups"
+msgstr "Gruppi"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:159
+msgid "Send a message"
+msgstr "Crea un messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:160
+msgid "Process Queue"
+msgstr "Processa coda di invio"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:161
+msgid "Templates"
+msgstr "Templates"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:163
+msgid "View Bounces"
+msgstr "Respinti"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:164
+msgid "Process Bounces"
+msgstr "Processa respinti"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/menu.php:167
+msgid "archive"
+msgstr "Archivio"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/module.php:270
+msgid "yes"
+msgstr "si"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/module.php:271
+msgid "no"
+msgstr "no"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/module.php:387
+#: /var/www/maxlist/0.5/maxlist/app/inc/module.php:400
+#: /var/www/maxlist/0.5/maxlist/app/inc/module.php:421
+#, php-format
+msgid "error_form %s"
+msgstr "<img src=\"%s\" alt=\"Errore: questo campo presenta errori di compilazione\" />"
+
+#: /var/www/maxlist/0.5/maxlist/app/inc/template.php:78
+#, php-format
+msgid "errorform %s"
+msgstr "ATTENZIONE! Risultano errati alcuni campi.<br />Correggere o completare i dati contrassegnati dal simbolo <img src=\"%s\" alt=\"Error\" title=\"Error\" /> prima di proseguire.<span class=\"hidden\">Gli errori vengono segnalati anche nell'etichetta del campo compilato erroneamente</span>"
+
+#: /var/www/maxlist/0.5/maxlist/app/models/attachment_model.php:91
+#, php-format
+msgid "Cannot read %s. file is not readable !"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/attachment_model.php:111
+msgid "uploadfailed"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/sendmail_model.php:248
+msgid "sendingmessage"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/sendmail_model.php:250
+msgid "withsubject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/sendmail_model.php:252
+msgid "to"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/configure_model.php:59
+msgid "cannot be empty"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/user_model.php:157
+#: /var/www/maxlist/0.5/maxlist/app/models/user_model.php:238
+msgid "attributes_saved"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/user_model.php:163
+msgid "user_lists_subscribe"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/user_model.php:214
+msgid "all_lists"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/dao/list_dao.php:178
+msgid "list_security_error"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/dao/list_dao.php:186
+msgid "list_no_empty"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/dao/message_dao.php:252
+#, php-format
+msgid "purge_drafts"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/dao/template_dao.php:100
+msgid "Some errors were found, template NOT saved!"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:106
+#, php-format
+msgid "The temporary directory for uploading (%s) is not writable, so import will fail"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:236
+msgid "Record has no email"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:343
+msgid "File is either too large or does not exist."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:345
+msgid "No file was specified. Maybe the file is too big?"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:347
+msgid "File too big, please split it up into smaller ones"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:349
+msgid "Use of wrong characters in filename: "
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:851
+msgid "All the emails already exist in the database and are member of the lists"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:853
+#, php-format
+msgid "%s emails succesfully imported to the database and added to %d lists."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:856
+#, php-format
+msgid "%d emails subscribed to the lists"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:864
+#, php-format
+msgid "%d Invalid Emails found."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:866
+#, php-format
+msgid "These records were added, but the email has been made up from "
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:868
+#, php-format
+msgid "These records were deleted. Check your source and reimport the data. Duplicates will be identified."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:873
+#, php-format
+msgid "User data was updated for %d users"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:875
+#, php-format
+msgid "%d users were matched by foreign key, %d by email"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:877
+msgid " "
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/import_model.php:881
+#, php-format
+msgid "Test output<br/>If the output looks ok, click %s to submit for real"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/attribute_model.php:60
+msgid "This datatype does not have editable values"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/processqueue_model-v0.9.php:677
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:82
+msgid "batch limit reached"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/processqueue_model-v0.9.php:856
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processqueueconf_helper.php:144
+msgid "In safe mode, batches are set to a maximum of 100"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/old/processqueue_model-v0.9.php:1143
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processqueuebatch_helper.php:139
+msgid "Script finished, but not all messages have been sent yet."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/statistic_helper.php:54
+msgid "unknown"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/statistic_helper.php:65
+msgid "very little time"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:94
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:156
+msgid "Process Killed by other process"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:99
+msgid "Message I was working on has disappeared"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:102
+msgid "Sending of this message has been suspended"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:196
+msgid "users apply for attributes, now checking lists"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/processtemp_helper.php:205
+msgid "No users apply for attributes"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/sendmail_helper.php:433
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/sendmail_helper.php:441
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/sendmail_helper.php:449
+msgid "str_this_link"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:64
+msgid "January"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:65
+msgid "February"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:66
+#, fuzzy
+msgid "March"
+msgstr "Archivio"
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:67
+msgid "April"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:68
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:81
+msgid "May"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:69
+msgid "June"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:70
+msgid "July"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:71
+msgid "August"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:72
+msgid "September"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:73
+msgid "October"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:74
+msgid "November"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:75
+msgid "December"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:77
+msgid "Jan"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:78
+msgid "Feb"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:79
+msgid "Mar"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:80
+msgid "Apr"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:82
+msgid "Jun"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:83
+msgid "Jul"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:84
+msgid "Aug"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:85
+msgid "Sep"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:86
+msgid "Oct"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:87
+msgid "Nov"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/usermessage_helper.php:88
+msgid "Dec"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/message_helper.php:126
+#, fuzzy
+msgid "str_to_unsubscribe"
+msgstr "Iscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/app/models/helpers/message_helper.php:130
+msgid "str_to_update"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:49
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:78
+msgid "Running in testmode, no emails will be sent. Check your config file."
+msgstr "In modalità TEST nessuna mail verrà inviata."
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:59
+msgid "safemodewarning"
+msgstr "In safe mode, non tutto funziona come atteso"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:62
+msgid "cannot check, \"allow_url_fopen\" disabled in PHP settings"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:65
+msgid "magicquoteswarning"
+msgstr "Questo funziona meglio con PHP magic_quotes_gpc = <b>on</b>"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:68
+msgid "magicruntimewarning"
+msgstr "Questo funziona meglio con PHP magic_quotes_runtime = off"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:72
+msgid "warnopenbasedir"
+msgstr "open_basedir è attivo, può essere la causa di errori"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:74
+msgid "warnattachmentrepository"
+msgstr "La cartella repository per gli allegati non esiste o non ho i permessi per scrivere"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/dev.php:81
+msgid "Running in test process mode, no emails will be sent. Check your config file."
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/request.php:117
+msgid "save_and"
+msgstr "salva e continua"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:121
+#, php-format
+msgid "request_save"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:149
+msgid "information"
+msgstr "Informazione: "
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:162
+msgid "warning"
+msgstr "Attenzione: "
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:166
+msgid "error"
+msgstr "Errore: "
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:181
+msgid "Mail list error:"
+msgstr "Errore"
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:182
+msgid "An error has occurred in the Mailinglist System"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/app/helpers/msg.php:185
+msgid "fatalerror"
+msgstr ""
+

@@ -1,0 +1,27 @@
+1.0
+ENABLE_RSS 
+sendmail_model->_build_message_text
+sendmail_model->_rss (SendrssHelper)
+CLICKTRACK
+sendmail_model->_clicktrack (SendclicktrackHelper)
+
+FORWARDURL
+sendmail_model->_helper forwardurl
+
+FORWARDFOOTER
+sendmail_model->_helper set_footer
+
+REMOTE_CONTENT
+sendmail_model->_helper set_remote_content
+
+HTML_STYLE
+sendmail_model->_helper set_html_style
+
+LISTOWNER
+sendmail_model->_helper parse_listowner
+
+USE_CARRIAGE_RETURNS
+sendmail_model->_helper use_carriage_returns
+
+SENDINGTEXTONLY
+sendmail_model->_helper sendingtextonlyto

@@ -1,0 +1,9 @@
+sudo cp /var/www/maxlist/0.5/libraries/smarty-gettext-1.0b1/tsmarty2c.php /usr/local/bin/
+sudo cp /var/www/maxlist/0.5/libraries/smarty-gettext-1.0b1/tzsmarty2c.php /usr/local/bin/
+sudo chmox +x /usr/local/bin/tzsmarty2c.php
+
+USAGE:
+max@ubuntu:~$ cd /var/www/maxlist/0.5/maxlist/modules/about/tpl/
+max@ubuntu:/var/www/maxlist/0.5/maxlist/modules/about/tpl$ tsmarty2c.php * > smarty.c
+max@ubuntu:/var/www/maxlist/0.5/maxlist/modules/about/tpl$ tzsmarty2c.php * > smarty.c
+

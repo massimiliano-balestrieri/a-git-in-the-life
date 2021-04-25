@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 19:15+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/configure\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/smarty.c:2
+msgid "save"
+msgstr "Salva"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:1
+msgid "website"
+msgstr "Indirizzo sito internet (senza http://)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:3
+msgid "domain"
+msgstr "Dominio del tuo web server (per le email)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:5
+msgid "admin_address"
+msgstr "Indirizzo email dell'amministratore"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:7
+msgid "admin_addresses"
+msgstr "Mail in CC per i messaggi di sistema (separate da virgola)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:9
+msgid "report_address"
+msgstr "Mail cui spedire i report di sistema"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:11
+msgid "message_from_address"
+msgstr "Mail che apparirà come campo \"Da\" agli iscritti alle newsletter"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:13
+msgid "message_from_name"
+msgstr "Il nome che apparirà come campo \"Da\" agli iscritti alle newsletter"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:15
+msgid "message_replyto_address"
+msgstr "Mail alla quale rispondere per gli iscritti alle liste"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:17
+msgid "html_charset"
+msgstr "Charset per i messaggi HTML"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:19
+msgid "text_charset"
+msgstr "Charset per i messaggi di testo"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:21
+msgid "default_message_template"
+msgstr "L'uso di template HTML è default"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:23
+msgid "subscribeurl"
+msgstr "URL per l'iscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:25
+msgid "unsubscribeurl"
+msgstr "URL per la deiscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:27
+msgid "confirmationurl"
+msgstr "URL per la conferma dell'iscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:29
+msgid "preferencesurl"
+msgstr "URL dove gli utenti possono modificare i propri dati"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:31
+msgid "subscribesubject"
+msgstr "\"Oggetto\" nella mail di richiesta di conferma sottoscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:33
+msgid "subscribemessage"
+msgstr "Messaggio che l'utente riceve dopo la sottoscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:35
+msgid "unsubscribesubject"
+msgstr "\"Oggetto\" della mail per la deiscrizione alla newsletter"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:37
+msgid "unsubscribemessage"
+msgstr "Messaggio inviato alle deiscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:39
+msgid "updatesubject"
+msgstr "\"Oggetto\" del messaggio spedito come notifica per il cambiamento di dati personali"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:41
+msgid "updatemessage"
+msgstr "Messaggio che l'utente riceve a conferma del cambiamento del propri dettagli dell'account"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:43
+msgid "confirmationsubject"
+msgstr "\"Oggetto\" del messaggio inviato dopo la conferma dell'iscrizione"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:45
+msgid "confirmationmessage"
+msgstr "Messaggio che l'utente riceve dopo aver confermato il proprio indirizzo email"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:47
+msgid "emailchanged_text"
+msgstr "Messaggio che l'utente riceve dopo aver cambiato l'indirizzo mail (nuova casella)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:49
+msgid "emailchanged_text_oldaddress"
+msgstr "Messaggio che l'utente riceve dopo aver cambiato l'indirizzo mail (vecchia casella)"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:51
+msgid "messagefooter"
+msgstr "Footer di default per l'invio di un messaggio"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/configure_controller.php:77
+msgid "config_saved"
+msgstr "Configurazione salvata"
+

@@ -1,0 +1,559 @@
+24/12/2007
+- da fare:
+  * CONTROLLARE TUTTI I TODO (362)
+  * membri 
+  * attributi
+  * import
+  * export
+  * amministratori
+  * gruppi
+  * casi d'uso
+
+- layer
+  * sicurezza
+  * lingua
+  * cli (mod_rewrite)
+
+- funzionalità attuali:
+  * eventlog
+  * categorie
+  * about
+  * home
+  * message
+  * send
+  * queue 
+  * template
+  * statistics
+  * fo
+  * archivio
+  
+- da implementare su tutti i moduli
+  * i18n (inglese?)
+  * sicurezza
+  * ajax(?)/jquery
+  * riaccoda messaggio
+  * cli
+  * polling
+  * template (refactory) + advanced template
+  * statistics buss
+  * send (categorie attive)
+  * mailer normale (immagini)
+  
+   
+- ALTA PRIORITA' 0.4
+- USECASES BASE
+	- almeno per accedere o meno ad una vista.
+- USER
+	- user form
+- MESSAGE
+	- sendtest
+	- check apici 
+- FO
+	- subscribe
+	- unsubscribe
+	- preferences
+	- view message
+	- confirm
+	- archive
+	
+- BASSA PRIORITA'0.4
+- USER
+	- history
+	- members (actions)
+- MESSAGE
+	- requeue
+- ATTRIBUTES
+- PROCESS
+- EXPORT
+- IMPORT
+
+
+- I18N
+
+- restrutturare la lingua.
+
+INIZIATO
+- fatto il menu e altre cose comuni
+- about
+- home
+- eventlog
+- configure
+- list
+- members
+- history
+
+- AUMENTARE IL NUMERO DI MODULI
+
+iniziato. siamo a configure. spostare sul model esclusivamente la parte logica dei metodi.
+nei dao solo l'interazione con i db.
+
+- configure.
+- eventlog
+- list
+- members
+- history
+
+- RAGGRUPPARE I MODELS
+
+iniziato. disabilitare il caricamento dei model all'interno dei moduli.
+I modelli hanno metodi pubblici e tendenzialmente possono interagire tra loro.
+Non ha senso isolarli nelle directory dei moduli che invece sono completeamente
+costituiti da metodi protetti e privati.
+
+Spostare i metodi privati negli helpers.
+I metodi "logici" lasciarli nel model.
+I metodo con la parte db spostarli su dao.
+
+- DIVIDERE I MODELS IN ENTITA PIÙ PICCOLE
+
+iniziato
+
+- CONFIGURARE L'URL CON L'ISTANZA
+
+fatto. per ora tutto ok.
+
+- IMPLEMENTARE I CASI D'USO E IL SISTEMA DI ACCESSO
+
+
+- PERFEZIONARE MESSAGE - parsing apici
+
+iniziato.
+ora i model sono un buon punto.
+
+- CREARE UN HELPER PER IL CONTROLLER-VIEW? mettere li metodi pubblici e privati, 
+wrapping dell'i18n e lasciare solo il minimo di assegnamento nelle viste.
+
+
+- ATTENZIONE  a _param_to_data checked="checked"
+- ATTENZIONE a metodo validate con callback. portare anche sugli altri moduli.
+
+IDEE :AUTH
+- creare una mappa di casi di uso.
+- i metodi pubblici del model e i metodi protetti/pubblici di viste e controller
+  possono essere soggetti ad un check. questo check dichiara il nome di un caso d'uso.
+  In un file indicizzo il caso d'uso.
+  Come per config se il caso d'uso non viene trovato nel db viene cercato su file
+  
+  - Livelli di protezione: 
+  classe, 
+  metodo, 
+  gruppi di metodi, 
+  moduli, 
+  campi.
+  
+  
+  Controllo su superutente
+  
+  Creare Modulo usecase
+  Creare modulo gruppi
+
+  Creare 3 gruppi di esempio simple/master/admin
+  
+  Creare interfacce di modulo(?) di tipo back e di tipo front. distinguiamo così 
+  la prima macro divisione del layer auth
+  
+- IMPORTANTE : 
+- shashes e apici. capire bene il giro ufficiale da dare ai dati dal db all'html dall'html al db.
+
+
+- ATTRIBUTES : 
+- creare una classe form per i soli attributi 
+  o un metodo in view
+
+
+- USER E ADMIN
+- creare un metodo pubblico per la view invocabile da altri moduli.
+  questo metodo resituirà l'html del form da utilizzare per il FO
+
+NO. CMQ ora i moduli li riorganizzo. Alcuni così sono troppo densi.
+E comunque questa distinzione tra FO/BO mi sembra inutile.
+
+
+- template : ver 0.5 immagini e check sui link
+
+- IMPORT
+- iniziato il refactory di import. un'impresa! 1000 righe di codice.
+  valutare come migliorare questo complesso modulo.
+  spezzarlo in classi.
+  utilizzare maggiormente i modelli delle singole entità per alleggerire il carico di codice del modulo
+
+- valutare quando e come togliere schema + form automatici.
+- fare una vera classe per form automatizzati
+
+- migliorare la ricerca del log. in base a username e in base a stack
+- allo stack si potrebbero aggiungere - query quando sbagliano.
+
+- redirect -> wrappare. FATTO
+- log + i18n -> wrappare. FATTO
+
+- le azioni hanno una doppia invocazione. problema la validazione viene fatta due volte: si potrebbe invocare il metodo validazione 2 volte
+- NON RISOLVE
+- RISOLVE : spezzare in due. FATTO
+
+ 
+- Correggere il menu. VOGLIO IL LINK SEMPRE. FATTO
+
+- IMPORTANTE - MODEL : precedenza del POST sul DB. 
+FATTO. PORTARE LA LOGICA PENSATA SU TUTTI I MODULI FATTI.
+
+- list->is_writable
+- VALIDATION CLASS
+- URL REWRITE + MVC
+
+- AUTENTICAZIONE NON FUNZIONA
+
+- Funzione per il reset del form
+- Ristabilire in eventlog ROLES
+- Refactory di un modulo con doppia entita (admin/admins) 
+
+OK
+
+- Verificare la posizione di template. Valorizza molti dati. Forse meglio spostarli alla fine. 
+
+IN PARTE STO FACENDO
+
+- Rimuovere il concetto di helper così com'è. Sono tutti helper. Istanziarli nel secondo modo. Fuori dal costreuttore di APP
+- Wrapper delle labels. come passare direttamente i file della lingua?
+
+VA BENE COSÌ 
+
+ Si riesce a pulire un bel po. Rimane che alcune chiavi non sono assolutamente compatibili.
+ Quindi conviene lasciare il wrapper.
+
+- Ajax rimuovere gli onclick
+
+STO FACENDO
+
+- Pulire l'html dalle stringhe italiane
+
+STO FACENDO
+
+- Roles, usecases, protection
+- Config Menu
+- Config Roles
+- Register USECASES
+- Test Modules
+- MSG
+- NO GLOBALS
+- Accordion option UI_TOGGLEPANEL
+- Actions, models, controllers refactory
+- Ajax layer with jquery
+- Ajax link, target AHAH
+- Ajax pagination
+- Ajax form
+- Parse XSS request
+- Sqllog e stats
+- Modules:
+
+FINITO		about
+FINITO		eventlog
+FINITO		configure
+FINITO		home (da rivedere giusto i link)
+FINITO		list/s
+FINITO		bounce/s
+FINITO		template/s
+
+FINITO		admin/s
+
+QUASI		message/s, send, view, stats
+QUASI		fo un/subscribe archive, confirm, prefs
+
+INIZIATO	user/admin attribute/s
+INIZIATO	export
+INIZIATO(?)	import
+
+INIZIATO	user/s history members
+
+			process bounces,queue,view
+
+			bouncerule  				// 2.0
+			bouncerules 				// 2.0
+			checkbouncerules 			// 2.0
+			checki18n  					// 2.0
+			dbcheck  					// 2.0
+			defaults 					// 2.0
+			domainstats  				// 2.0
+			generatebouncerules			// 2.0
+			importadmin					// 2.0
+			initialise					// 2.0
+			listbounces					// 2.0
+			massunconfirm				// 2.0
+			mclicks						// 2.0
+			mviews 						// 2.0
+			reconcileusers				// 2.0
+			setup						// 2.0
+			statsoverview				// 2.0
+			subscriberstats				// 2.0
+			uclicks						// 2.0
+			upgrade						// 2.0
+			usercheck					// 2.0
+			userclicks					// 2.0
+
+MODULES TODO:	
+**************
+EVENTLOG
+**************
+VER 0.4:
+ -) actions OK
+ -) spezzare il model in metodi OK
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) roles TODO 
+ -) I18N OK
+ -) MVC OK
+ -) paginazione OK
+ 
+VER 0.5:
+ -) ajax layer TODO
+ -) usecases TODO
+ 
+
+**************
+ADMIN/S
+**************
+VER 0.4:
+ -) actions OK
+ -) spezzare il model in metodi OK
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK!
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) attributes TODO
+ -) MVC OK
+ -) paginazione OK
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+**************
+USER/S history members
+**************
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) attributes TODO
+ -) I18N TODO
+ -) MVC TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+
+**************
+list/s
+**************
+
+VER 0.4:
+ -) actions OK
+ -) spezzare il model in metodi OK
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) MVC OK
+ -) validazione e indietro OK
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+ 
+**************
+templates/template
+**************
+
+VER 0.4:
+ -) actions OK
+ -) spezzare il model in metodi OK
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) MVC OK
+ -) validazione e indietro OK
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ -) uploads, images, links TODO
+ 
+
+
+**************
+message/s view,statistic/send
+**************
+
+VER 0.4:
+ -) actions 50%
+ -) spezzare il model in metodi OK
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) paginazione OK
+ -) validazione e indietro OK
+ -) send action TODO
+ -) status actions TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ -) stacked attr
+ -) list exclude
+ 
+ 
+**************
+process queue/view/bounce
+**************
+
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N TODO
+ -) attributes TODO
+ -) MVC TODO
+ -) paginazione TODO
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+
+**************
+bounce/s
+**************
+
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N TODO
+ -) attributes TODO
+ -) MVC TODO
+ -) paginazione TODO
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+**************
+un/subscribe/preferences confirm archive
+**************
+
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N TODO
+ -) attributes TODO
+ -) MVC TODO
+ -) paginazione TODO
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+
+
+**************
+user,admin attribute/s
+**************
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N TODO
+ -) attributes TODO
+ -) MVC TODO
+ -) paginazione TODO
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+
+**************
+import
+**************
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) MVC OK
+ -) validazione e indietro TODO
+
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+
+**************
+export
+**************
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css OK
+ -) pulire labels inutili OK
+ -) unificare le due viste. patternizzare la crud completa OK
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N OK
+ -) MVC OK
+ -) validazione e indietro TODO
+
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO
+ 
+
+**************
+configure
+**************
+VER 0.4:
+ -) actions TODO
+ -) spezzare il model in metodi TODO
+ -) pulire html/css TODO
+ -) pulire labels inutili TODO
+ -) unificare le due viste. patternizzare la crud completa TODO
+ -) roles TODO  
+ -) profilo TODO
+ -) I18N TODO
+ -) attributes TODO
+ -) MVC TODO
+ -) paginazione TODO
+ -) validazione e indietro TODO
+VER 0.5:
+ -) usecases TODO
+ -) ajax layer TODO

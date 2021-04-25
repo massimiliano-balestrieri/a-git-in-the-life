@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxlist\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 16:07+0100\n"
+"Last-Translator: maxbnet <max@maxb.net>\n"
+"Language-Team: maxlist <info@maxlist.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/maxlist/0.5/maxlist/modules/configure\n"
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/smarty.c:2
+msgid "save"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:1
+msgid "website"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:3
+msgid "domain"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:5
+msgid "admin_address"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:7
+msgid "admin_addresses"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:9
+msgid "report_address"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:11
+msgid "message_from_address"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:13
+msgid "message_from_name"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:15
+msgid "message_replyto_address"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:17
+msgid "html_charset"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:19
+msgid "text_charset"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:21
+msgid "default_message_template"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:23
+msgid "subscribeurl"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:25
+msgid "unsubscribeurl"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:27
+msgid "confirmationurl"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:29
+msgid "preferencesurl"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:31
+msgid "subscribesubject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:33
+msgid "subscribemessage"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:35
+msgid "unsubscribesubject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:37
+msgid "unsubscribemessage"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:39
+msgid "updatesubject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:41
+msgid "updatemessage"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:43
+msgid "confirmationsubject"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:45
+msgid "confirmationmessage"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:47
+msgid "emailchanged_text"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:49
+msgid "emailchanged_text_oldaddress"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/tpl/cache.c:51
+msgid "messagefooter"
+msgstr ""
+
+#: /var/www/maxlist/0.5/maxlist/modules/configure/configure_controller.php:77
+msgid "config_saved"
+msgstr ""
+

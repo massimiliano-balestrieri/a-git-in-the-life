@@ -1,0 +1,26 @@
+#banner{height:90px;background: url(/include/css/maxlist/default/img/banner_default.jpg) #fff no-repeat 0 0;}
+
+/**** link */
+a:hover, a:active{color:#a1b3c9;}/*colore 1*/
+a, a:link, a:visited{color:#000;}/*colore scuro*/
+/**** menu */ 
+ul.ulmenu li{background-color:#939fb2;}/*colore 2*/
+ul.ulmenu li.active{background-color:#a1b3c9;}/*colore 1*/
+ul.ulmenu li.lastlink{background-color:#a1b3c9;}/*colore 1*/
+ul.ulmenu a:hover, ul.ulmenu a:active{color:#000;}
+ul.ulmenu a{color:#000;}
+ul.ulmenu li.active{color:#fff;}
+ul.ulmenu li span{color:#fff;}
+ul.ulmenu li ul.submenu {background:#eaeaea;}
+ul.ulmenu ul.submenu li{background:transparent;}
+ul.ulmenu li ul.submenu li#submenu_on{color:#000000; background:#ccc; }
+
+/**** panels */
+#contentcolumn h2,#contentcolumn h3{background-color:#a1b3c9;color:white}/*colore 1*/
+#contentcolumn h4{background-color:#939fb2;}/*colore 2*/
+#contentcolumn h5{background-color:#E9EBEA;}
+
+/**************************************************************************/
+/*BUTTONS*/
+a.ml_button, input.ml_button{background-color:#a1b3c9;color:white;}/*colore 1*/
+/*BUTTONS*/

@@ -1,0 +1,41 @@
+version: "3.9"
+services:
+    maxlist:
+        # image: nimmis/alpine-apache-php5
+        build:
+            dockerfile: ./Dockerfile
+            context: ./
+        volumes: 
+            - ./src/:/web/html/app:ro
+        ports:
+            - "80:80"
+        networks:
+            - web
+    db:
+        platform: linux/x86_64
+        image: mysql:5.7
+        # volumes:
+        #     - ~/var/lib/mysql:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: maxlist
+            MYSQL_DATABASE: maxlist
+            MYSQL_USER: maxlist
+            MYSQL_PASSWORD: maxlist
+        networks:
+            - web
+    phpmyadmin:
+        depends_on:
+            - db
+        image: phpmyadmin/phpmyadmin
+        restart: always
+        ports:
+            - '8082:80'
+        environment:
+            PMA_HOST: db
+            MYSQL_ROOT_PASSWORD: maxlist 
+        networks:
+            - web
+networks: 
+    web:
+    
