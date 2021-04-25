@@ -6,7 +6,7 @@ services:
             dockerfile: ./Dockerfile
             context: ./
         volumes: 
-            - ./src/:/web/html/app:ro
+            - ./src/:/web/html/maxlist/0.5/:ro
         ports:
             - "80:80"
         networks:

@@ -38,11 +38,11 @@ switch ($ambiente){
 	define('TEST', 1);
 	define('TEST_PROCESS', 1);
 	
-	define("SERVER_ROOT" ,  "/web/html/");
+	define("SERVER_ROOT" ,  "/web/html/maxlist/0.5/");
 	
-	define("APP_ROOT" ,  "/web/html/maxlist/");
-	define("PUBLIC_ROOT" , "/web/html/public/");
-	define("REPOSITORY_ROOT" , "/web/html/public/repository/");
+	define("APP_ROOT" ,  "/web/html/maxlist/0.5/maxlist/");
+	define("PUBLIC_ROOT" , "/web/html/maxlist/0.5/public/");
+	define("REPOSITORY_ROOT" , "/web/html/maxlist/0.5/public/repository/");
 	
 	define("URL" ,  	 "http://localhost/"); //with slash IMPORTANT
 	define("URL_RIS" ,   "http://localhost/public/include/");
@@ -57,7 +57,7 @@ switch ($ambiente){
 	define("MAILER_HOST","");
 	define("MESSAGE_ENVELOPE" , "");
 	
-	define('ZEND_PATH' , '/temp/zend/ZendFramework-1.0.3/library/');
+	define('ZEND_PATH' , '/web/html/external/ZendFramework-1.0.3/library/');
 	break;
 }
 ?>
