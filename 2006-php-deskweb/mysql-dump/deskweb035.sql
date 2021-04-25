@@ -279,8 +279,8 @@ CREATE TABLE `deskweb033_users` (
 -- 
 
 INSERT INTO `deskweb033_users` (`id_user`, `username`, `pass`, `mail`, `note`, `fk_firstgroup`, `desktop_bg`) VALUES (0, 'guest', '', '', NULL, 0, 'green'),
-(1, 'root', '1a1dc91c907325c69271ddf0c944bc72', 'root@deskweb.org', NULL, 1, '#C90000'),
-(1000, 'max', '1a1dc91c907325c69271ddf0c944bc72', '', NULL, 1000, 'green');
+(1, 'root', 'c4ca4238a0b923820dcc509a6f75849b', 'root@deskweb.org', NULL, 1, '#C90000'),
+(1000, 'max', 'c4ca4238a0b923820dcc509a6f75849b', '', NULL, 1000, 'green');
 
 -- --------------------------------------------------------
 

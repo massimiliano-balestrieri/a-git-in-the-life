@@ -11,7 +11,8 @@ services:
     db:
         platform: linux/x86_64
         image: mysql:5.7
-        # volumes:
+        volumes:
+            - ./mysql-dump:/docker-entrypoint-initdb.d
         #     - ~/var/lib/mysql:/var/lib/mysql
         restart: always
         environment:
