@@ -9,6 +9,10 @@ $HeadURL: https://maxlist.svn.sourceforge.net/svnroot/maxlist/branches/0.4/maxau
 $Author: maxbnet $
 $Date: 2007-11-02 16:48:51 +0100 (ven, 02 nov 2007) $
 */
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+print_r('QUI');die;
 $istance = sprintf('%s',isset($_REQUEST["istance"]) ? $_REQUEST['istance'] : "default");
 
 require_once dirname(__FILE__).'/config/config.php';	
@@ -30,6 +34,8 @@ if(!isset($_POST['username'])){
 	$template->caching = 0;
 	$template->cache_dir  	= 	SMARTY_CACHE;
 	$template->compile_dir 	= 	SMARTY_TPL;
+	// print_r($template);die;
+	// $template->$debugging = true;
 	
 	$template->assign('PATH_TEMPL', SMARTY_DIR ."/templates");
 
@@ -78,7 +84,7 @@ if(!isset($_POST['username'])){
 	$template->assign('mymenu', $main_menu);
 	$template->assign('istance', $istance);
 	
-	$template->display(dirname(__FILE__) . $head_template);
+	$template->display(dirname(__FILE__) . $head_template);die("QUI")
 	$template->display(dirname(__FILE__) . $login_template);
 	$template->display(dirname(__FILE__) . $menu_template);
 	$template->display(dirname(__FILE__) . $foot_template);

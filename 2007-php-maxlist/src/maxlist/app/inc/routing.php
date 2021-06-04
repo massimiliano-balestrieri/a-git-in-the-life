@@ -66,11 +66,12 @@ class MaxlistRouting{
 		
 		//phpinfo();die;
 		$this->_uri = getenv('REQUEST_URI');
-		if($start = strlen($base_url)){
+		$start = strlen($base_url);
+		// if($start = strlen($base_url)){
 			$this->_uri = substr($this->_uri, $start);
-		}else{
-			die("<!-- error uri -->");
-		}
+		// }else{
+		// 	die("<!-- error uri -->");
+		// }
 		
 		if(strpos($this->_uri,"?")){
 			$this->qs  = substr($this->_uri, strpos($this->_uri,"?"));
@@ -84,8 +85,9 @@ class MaxlistRouting{
 			if(isset($this->_args[0])){
 				$this->istance = $this->_args[0];
 				$this->href = $this->istance;
-				//echo $APP->SESSION->get_istance();die;
+				
 				$req_istance = $APP->SESSION->get_req_istance();
+				print_r($req_istance);die('QUA');
 				$istance = $APP->SESSION->get_istance();
 				if($this->istance != $istance && $this->istance != $req_istance)
 					 die("no<!-- no istance -->");

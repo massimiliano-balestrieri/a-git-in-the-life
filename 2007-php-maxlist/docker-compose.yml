@@ -6,7 +6,7 @@ services:
             dockerfile: ./Dockerfile
             context: ./
         volumes: 
-            - ./src/:/web/html/maxlist/0.5/:ro
+            - ./src/:/web/html/maxlist/:ro
         ports:
             - "80:80"
         networks:
@@ -14,8 +14,8 @@ services:
     db:
         platform: linux/x86_64
         image: mysql:5.7
-        # volumes:
-        #     - ~/var/lib/mysql:/var/lib/mysql
+        volumes:
+             - ~/.volumes/maxlist/var/lib/mysql:/var/lib/mysql
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: maxlist

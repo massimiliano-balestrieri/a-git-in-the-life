@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteBase /maxlist/maxlist/
+        RewriteRule ^(.*)\.(js|ico|gif|jpg|png|css|pdf)$ - [L]
+	RewriteRule (.*) index.php [L,QSA]
+</IfModule>

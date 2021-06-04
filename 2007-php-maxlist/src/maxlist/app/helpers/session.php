@@ -107,6 +107,7 @@ class MaxSessionHelper {
 		return isset($_SESSION[VERSION]['login']) ? $_SESSION[VERSION]['login'] : false;
 	}
 	public function get_req_istance(){
+		// print_r($_SESSION);die("get_req_istance");
 		return isset($_SESSION[VERSION]['login']['istance']) ? $_SESSION[VERSION]['login']['istance'] : false;
 	}
 	//ISTANCE

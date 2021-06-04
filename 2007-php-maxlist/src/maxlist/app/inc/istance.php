@@ -43,7 +43,7 @@ class MaxlistIstance{
 		global $APP;
 		$req_istance = $APP->SESSION->get_req_istance();
 		$istance = $APP->SESSION->get_istance();
-		//print_r($req_istance);die;
+		print_r($req_istance);die("P");
 		if ($req_istance && is_file(DIR_CONF . "/" . $req_istance . ".php")) {
 			$APP->SESSION->set_istance($req_istance);
 			//require_once (DIR_CONF . "/" . $req_istance . ".php");

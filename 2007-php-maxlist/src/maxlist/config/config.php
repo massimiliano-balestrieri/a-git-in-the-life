@@ -38,11 +38,11 @@ switch ($ambiente){
 	define('TEST', 1);
 	define('TEST_PROCESS', 1);
 	
-	define("SERVER_ROOT" ,  "/web/html/maxlist/0.5/");
+	define("SERVER_ROOT" ,  "/web/html/maxlist/");
 	
-	define("APP_ROOT" ,  "/web/html/maxlist/0.5/maxlist/");
-	define("PUBLIC_ROOT" , "/web/html/maxlist/0.5/public/");
-	define("REPOSITORY_ROOT" , "/web/html/maxlist/0.5/public/repository/");
+	define("APP_ROOT" ,  "/web/html/maxlist/maxlist/");
+	define("PUBLIC_ROOT" , "/web/html/maxlist/public/");
+	define("REPOSITORY_ROOT" , "/web/html/maxlist/public/repository/");
 	
 	define("URL" ,  	 "http://localhost/"); //with slash IMPORTANT
 	define("URL_RIS" ,   "http://localhost/public/include/");
